@@ -10,5 +10,4 @@ sum_of_args = 0
 for num in int_args:
     sum_of_args += num
 
-print(sum_of_args)
-
+print("{}".format(sum_of_args))
