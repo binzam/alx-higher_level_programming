@@ -22,4 +22,3 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(
             max_integer([-1000000, 10000, 2.5, 3, 10000000000]), 10000000000
         )
-
