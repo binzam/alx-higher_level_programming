@@ -6,9 +6,5 @@ function factorial(n) {
     return n * factorial(n - 1);
   }
 }
-
-const arg = process.argv[2];
-const num = parseInt(arg);
-
-const result = factorial(num);
+const result = factorial(parseInt(process.argv[2]));
 console.log(result);
