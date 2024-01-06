@@ -1,2 +1,2 @@
-Time complexity of algorithm
+# Time complexity of find_peak function, where n is lenght of input list
 O(log(n))
